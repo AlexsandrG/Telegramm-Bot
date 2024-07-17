@@ -2,9 +2,11 @@
 from aiogram import Bot, Dispatcher, html
 from aiogram import filters
 import asyncio
+from config import *
+from keyboards import *
+from text import *
 
-api = ('7302084975:AAEPi7jaA_Ipo80pjHAPuaqLb6xa9h1ZwLo')
-bot = Bot(token=api)
+bot = Bot(token=API)
 
 
 class Memorystorage:
